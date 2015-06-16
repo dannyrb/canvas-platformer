@@ -19,16 +19,16 @@ ninjaPos = ninjaStates(ninjaPos);
 
 /* Load tile sets and BGs */
 var background = new Image();
-background.src = "/Scripts/game/assets/BG.png";
+background.src = "/images/BG.png";
 
 var tileSet = new Image();
-tileSet.src = "/Scripts/game/assets/tileset-fullsize.png";
+tileSet.src = "/images/tileset-fullsize.png";
 
 /* Load sprite sheets */
 var ninjaImage = new Image();
-ninjaImage.src = "/Scripts/game/assets/ninja-15percent.png";
+ninjaImage.src = "/images/ninja-15percent.png";
 var ninjaImageLeft = new Image();
-ninjaImageLeft.src = "/Scripts/game/assets/ninja-15percent-left.png";
+ninjaImageLeft.src = "/images/ninja-15percent-left.png";
 
 /* Create sprites */
 var ninja = sprite({
